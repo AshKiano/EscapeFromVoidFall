@@ -1,0 +1,14 @@
+name: EscapeFromVoidFall
+version: '${project.version}'
+main: com.ashkiano.escapefromvoidfall.EscapeFromVoidFall
+api-version: '1.16'
+authors: [ AshKiano ]
+commands:
+  efvf:
+    description: Escape from Void Fall command
+    usage: "/<command> [help|reload]"
+    aliases: [escapefromvoidfall]
+permissions:
+  efvf.reload:
+    description: Allows you to reload the EscapeFromVoidFall config
+    default: op

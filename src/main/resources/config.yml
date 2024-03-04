@@ -1,0 +1,23 @@
+Messages:
+  ErrorMsg: "&c[EscapeFromVoidFall] : Some error occured."
+  Teleporting: "&a[EFVF] : sending %player% to the nearest safe location."
+
+HelpMessages:
+  banner:
+    msg: "=== &e[&aEscapeFromVoidFall Commands List (%version%)&e] &r==="
+  help:
+    msg: "&a/EscapeFromVoidFall help : displays this help menu."
+  reload:
+    msg: "&a/EscapeFromVoidFall reload : reloads config file."
+    permission: "escapefromvoidfall.reload"
+  debug:
+    msg: "&a/EscapeFromVoidFall debug <true|false> : turn on / off the debug mode."
+    permission: "escapefromvoidfall.debug"
+
+SearchRadius: 5
+
+Punish:
+  enabled: true
+  type: POISON
+  level: 1
+  duration: 100
