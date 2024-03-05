@@ -15,6 +15,7 @@ public class EscapeFromVoidFall extends JavaPlugin {
     public void onEnable() {
         saveDefaultConfig();
         Bukkit.getPluginManager().registerEvents(new PlayerListener(this), this);
+        Metrics metrics = new Metrics(this, 21239);
     }
 
     @Override
