@@ -18,7 +18,7 @@ public class PlayerListener implements Listener {
     @EventHandler
     public void onPlayerFallIntoVoid(PlayerMoveEvent event) {
         Player player = event.getPlayer();
-        if (player.getLocation().getY() <= 0) {
+        if (player.getLocation().getY() <= -66) {
             plugin.teleportToSafety(player);
         }
     }
